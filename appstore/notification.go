@@ -21,6 +21,8 @@ const (
 	NotificationTypeDidChangeRenewalStatus NotificationType = "DID_CHANGE_RENEWAL_STATUS"
 	// Subscription failed to renew due to a billing issue.
 	NotificationTypeDidFailToRenew NotificationType = "DID_FAIL_TO_RENEW"
+	// Automatic renewal status for a subscription.
+	NotificationTypeDidRenew NotificationType = "DID_RENEW"
 )
 
 type NotificationEnvironment string
